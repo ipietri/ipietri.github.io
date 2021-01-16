@@ -67,9 +67,9 @@ img {
 	vertical-align: middle;
 }
 
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 
 blockquote, q {
 	quotes: none;
@@ -304,11 +304,12 @@ h2.slogan{
 	margin: 0;
 }
 .progress{
-	overflow: hidden;
+	/* overflow: hidden;
 	width: 100%;
-	margin: 20px 0 3px 0;
+	margin: 20px 0 3px 0; */
+	padding-left: 20px;
 }
-.progress li{
+/* .progress li{
 	overflow: hidden;
 	height: 43px;
 	line-height: 43px;
@@ -328,13 +329,13 @@ h2.slogan{
 	padding: 0 0 0 20px;
 }
 .progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
-.progress li span.flash{width: 80%;}
-.progress li span.html{width: 75%;}
-.progress li span.wordpress{width: 85%;}
-.progress li span.jquery{width: 70%;}
-.progress li span.seo{width: 40%;}
+.progress li span.illustrator{width: 100%;}
+.progress li span.indesign{width: 100%;}
+.progress li span.flash{width: 100%;}
+.progress li span.python{width: 100%;}
+.progress li span.R{width: 100%;}
+.progress li span.jquery{width: 100%;}
+.progress li span.seo{width: 100%;} */
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -345,29 +346,29 @@ h2.slogan{
 	margin: 0 0 0 25px;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
-	text-indent: -9999px;
+	/* text-indent: -9999px; */
 	background: #28292b;
 	width: 121px;
 	height: 121px;
 	position:relative;
 	display: inline-block;
 	border: 1px solid #46484c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-decoration: none;
 }
 .plagin_list li:first-child{margin: 0;}
-.plagin_list li a{
-	display: block;
-	vertical-align: middle;
-	height: 100%;
-	position: relative;
-}
-.plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
+
+/* .plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
 .plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
 .plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
 .plagin_list li.li_4 a{background: url(../images/icon_fl.png) no-repeat 50% 50% ;}
 .plagin_list li.li_5 a{background: url(../images/icon_html.png) no-repeat 50% 50% ;}
 .plagin_list li.li_6 a{background: url(../images/icon_wp.png) no-repeat 50% 50% ;}
 .plagin_list li.li_7 a{background: url(../images/icon_jq.png) no-repeat 50% 50% ;}
-.plagin_list li.li_8 a{background: url(../images/icon_seo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_8 a{background: url(../images/icon_seo.png) no-repeat 50% 50% ;} */
 .wrapper-holder.grey p{padding: 0 0 25px;}
 .plagin_list.none{display: none;}
 
