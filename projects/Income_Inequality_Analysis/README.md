@@ -14,7 +14,7 @@ Jupyter Notebooks description:
 
 * **Q1-World_Income_Inequality_Trend_FINAL.ipynb​** - World Income Inequality dataset manipulation and visualizations related to research question 1. 
 
-* **Q2_GDP_Analysis.ipynb ​- Exploration of the GDP** analysis and visualizations related to research question 2. 
+* **Q2_GDP_Analysis.ipynb** ​- Exploration of the GDP analysis and visualizations related to research question 2. 
 
 * **Q2_Relationship_GDP_Inequality_dataset_prep.ipynb** -  ​Data preparation and merging Real GDP trend, GDP, and GDP per capita. 
 
