@@ -11,7 +11,7 @@ Files description:
 
 * **EDA_and_modeling.ipynb​** (inside the **code** directory) - Notebook that contains all the code for data preparation, exploratory data analysis and modeling.
 
-* **Predicting_student_success_for_early_interventions.pptx** - presentation with summary of project and results.
+* **Predicting_student_success_for_early_interventions.pptx** - slide deck with a summary of the project.
 
 * The **data** directory is empty for space reasons- to run the notebook download the data in this directory from https://www.kaggle.com/anlgrbz/student-demographics-online-education-dataoulad?select=assessments.csv
 
