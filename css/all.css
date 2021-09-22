@@ -173,6 +173,7 @@ a:hover{text-decoration:underline;}
 }
 #nav ul {
 	text-align: center;
+	list-style-type: none;
 }
 #nav ul li {
 	float: left;
@@ -337,6 +338,8 @@ h2.slogan{
 .wrapper-holder.grey p{padding: 0 0 25px;}
 .plagin_list.none{display: none;}
 
+.plagin_list li span{font-size: 400%;}
+
 /*portfolio*/
 .sub_nav {
 	position: relative;
@@ -481,7 +484,7 @@ transition: all 0.5s ease-in-out;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	display: block;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
@@ -685,4 +688,5 @@ transition: all 0.5s ease-in-out;
 		background-size:46px 46px;
 	}
 /* end add	 */
+
 }
